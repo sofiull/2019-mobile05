@@ -6,4 +6,29 @@
     android:layout_height="match_parent"
     tools:context=".activities.StaticActivity">
 
+    <fragment
+        android:id="@+id/fragment"
+        android:name="polinema.ac.id.starterchapter05.fragments.BlueFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        tools:layout_editor_absoluteX="136dp" />
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="polinema.ac.id.starterchapter05.fragments.RedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="151dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="327dp"
+        app:layout_constraintHeight_percent="0.5"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
