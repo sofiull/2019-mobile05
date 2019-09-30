@@ -6,4 +6,5 @@
     <color name="text">#FFFFFF</color>
     <color name="Red">#C23030</color>
     <color name="Blue">#1C91DA</color>
+    <color name="textblack">#000000</color>
 </resources>
