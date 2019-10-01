@@ -261,7 +261,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.09"
-        app:srcCompat="@drawable/pushups" />
+        app:srcCompat="@drawable/pushups"
+        android:onClick="handlerClickPushup"
+        />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -273,7 +275,8 @@
         app:layout_constraintStart_toEndOf="@+id/imageView15"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.09"
-        app:srcCompat="@drawable/dips" />
+        app:srcCompat="@drawable/dips"
+        android:onClick="handlerClickDips"/>
 
     <ImageView
         android:id="@+id/imageView17"
@@ -285,6 +288,16 @@
         app:layout_constraintStart_toEndOf="@+id/imageView16"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
         app:layout_constraintVertical_bias="0.101"
-        app:srcCompat="@drawable/handstand" />
+        app:srcCompat="@drawable/handstand"
+        android:onClick="handlerClickHandstand"/>
+
+    <FrameLayout
+        android:id="@+id/frameout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="283dp">
+
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
